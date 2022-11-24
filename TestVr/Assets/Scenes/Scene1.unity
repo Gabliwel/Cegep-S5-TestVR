@@ -7422,9 +7422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Go Scene3
-
-'
+  m_Text: '(S3 non fonctionnelle) '
 --- !u!222 &1242290953
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7862,9 +7860,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1520845759}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: ButtonClick
+      - m_Target: {fileID: 100159397}
+        m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
+        m_MethodName: GoToPunchingBag
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
